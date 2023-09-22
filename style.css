@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2b2b !important;
+}
+
+.info-lista {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #4a4a4a;
+  background-color: #232323;
+}
+
+.products-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.products-container > .product {
+  border: 1px solid #4a4a4a;
+}
+
+.controls {
+  width: 100%;
+  max-width: 600px;
+}
+
+.controls select {
+  background-color: #232323;
+}
+
+.controls .filter-button {
+  background-color: #4a4a4a;
+  color: white;
+  transition: .3s;
+}
+
+.controls .remove-filter-button {
+  background-color: #4a4a4a;
+  color: white;
+  transition: .3s;
+}
+
+.controls .filter-button:hover {
+  background-color: #5c5c5c;
+}
+
+.controls .remove-filter-button:hover {
+  background-color: #b51b23;
+}
+
+.list-container {
+  border: 1px solid #4a4a4a;
+  width: 100%;
+  max-width: 600px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4a4a4a;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tag {
+  background-color: #5c5c5c;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .controls {
+    flex-wrap: wrap;
+  }
+
+  .controls select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

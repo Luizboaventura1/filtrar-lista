@@ -1,0 +1,22 @@
+export const produtos = [
+  { nome: "Camiseta", preco: 29.99 },
+  { nome: "Calça Jeans", preco: 49.99 },
+  { nome: "Tênis Esportivo", preco: 79.99 },
+  { nome: "Vestido Floral", preco: 39.99 },
+  { nome: "Sapato de Salto Alto", preco: 59.99 },
+  { nome: "Jaqueta de Couro", preco: 99.99 },
+  { nome: "Bermuda Cargo", preco: 34.99 },
+  { nome: "Sapatênis", preco: 69.99 },
+  { nome: "Blusa de Moletom", preco: 44.99 },
+  { nome: "Calça Social", preco: 54.99 },
+  { nome: "Sandalia Rasteira", preco: 24.99 },
+  { nome: "Blusa de Tricô", preco: 37.99 },
+  { nome: "Shorts Jeans", preco: 29.99 },
+  { nome: "Tênis Casual", preco: 59.99 },
+  { nome: "Macacão", preco: 69.99 },
+  { nome: "Blusa Manga Longa", preco: 34.99 },
+  { nome: "Sapato Social", preco: 79.99 },
+  { nome: "Saia Midi", preco: 42.99 },
+  { nome: "Chinelo Slide", preco: 19.99 },
+  { nome: "Blazer Feminino", preco: 89.99 }
+]
