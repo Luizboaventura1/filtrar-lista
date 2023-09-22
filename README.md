@@ -1,6 +1,8 @@
 # filtrar-lista
  Sistema de filtro de lista
 
+ Deploy: https://filtrar-lista.vercel.app
+
 **Tecnologias usadas**
 
 - Html
